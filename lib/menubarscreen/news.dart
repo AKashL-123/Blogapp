@@ -15,7 +15,7 @@ class _newsState extends State<news> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      resizeToAvoidBottomInset:false,
+      resizeToAvoidBottomInset: false,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
@@ -45,14 +45,19 @@ class _newsState extends State<news> {
               child: Column(
                 children: [
                   SingleChildScrollView(
-                    child: Align(alignment: Alignment.centerLeft,
+                    child: Align(
+                      alignment: Alignment.centerLeft,
                       child: Padding(
                         padding: const EdgeInsets.only(top: 30),
                         child: Padding(
-                          padding: const EdgeInsets.all(8.0),   
-                          child: Text("News Description :",style: TextStyle(fontSize: 17,fontFamily: 'myralight',fontWeight: FontWeight.w800,
-                          decoration: TextDecoration.underline,
-                          )),
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text("News Description :",
+                              style: TextStyle(
+                                fontSize: 17,
+                                fontFamily: 'myralight',
+                                fontWeight: FontWeight.w800,
+                                decoration: TextDecoration.underline,
+                              )),
                         ),
                       ),
                     ),
@@ -70,20 +75,22 @@ class _newsState extends State<news> {
                     borderRadius: BorderRadius.circular(10),
                     color: Colors.cyan,
                     child: Container(
-                      child: Container(decoration: BoxDecoration(
-                  boxShadow: [                
-                         BoxShadow(
-                            color: Colors.black.withAlpha(1000),
-                            blurRadius: 10,
-                            spreadRadius: 1,
-                            offset: Offset(0, 0),
-                                  )                       
-                             ],
-                  gradient: LinearGradient(colors: [Color(0xFFFF1000),Color(0XFF2508FF)],
-                    
-                  begin: Alignment.centerRight, end: Alignment.centerLeft),
-                  borderRadius: BorderRadius.circular(15),
-                ),
+                      child: Container(
+                        decoration: BoxDecoration(
+                          boxShadow: [
+                            BoxShadow(
+                              color: Colors.black.withAlpha(5000),
+                              blurRadius: 10,
+                              spreadRadius: 1,
+                              offset: Offset(0, 0),
+                            )
+                          ],
+                          gradient: LinearGradient(
+                              colors: [Color(0xFFFF1000), Color(0XFF2508FF)],
+                              begin: Alignment.centerRight,
+                              end: Alignment.centerLeft),
+                          borderRadius: BorderRadius.circular(15),
+                        ),
                         child: MaterialButton(
                           onPressed: () async {
                             final url = widget.link;
