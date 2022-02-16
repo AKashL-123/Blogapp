@@ -4,8 +4,11 @@ import 'package:blog/menubarscreen/annocumentscreen.dart';
 import 'package:blog/menubarscreen/blogscreen.dart';
 import 'package:blog/menubarscreen/homescreen.dart';
 import 'package:blog/menubarscreen/photowall.dart';
+import 'package:blog/service/slider.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:blog/service/slider.dart';
+import 'package:blog/menubarscreen/homescreen.dart';
 
 var option = 1;
 
@@ -130,6 +133,7 @@ class _homescreenState extends State<homescreen> {
       );
     } catch (e) {
       print(e);
+      
     }
   }
 }
