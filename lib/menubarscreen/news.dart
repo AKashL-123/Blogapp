@@ -73,20 +73,20 @@ class _newsState extends State<news> {
                 ? Material(
                     elevation: 5,
                     borderRadius: BorderRadius.circular(10),
-                    color: Colors.cyan,
+                    color: Colors.black87,
                     child: Container(
                       child: Container(
                         decoration: BoxDecoration(
                           boxShadow: [
                             BoxShadow(
-                              color: Colors.black.withAlpha(5000),
+                              color: Colors.yellow.withAlpha(5000),
                               blurRadius: 10,
                               spreadRadius: 1,
                               offset: Offset(0, 0),
                             )
                           ],
                           gradient: LinearGradient(
-                              colors: [Color(0xFFFF1000), Color(0XFF2508FF)],
+                              colors: [Color(0xFFFFC107), Color(0XFFF57F17)],
                               begin: Alignment.centerRight,
                               end: Alignment.centerLeft),
                           borderRadius: BorderRadius.circular(15),
@@ -113,7 +113,7 @@ class _newsState extends State<news> {
                             textAlign: TextAlign.center,
                             style: TextStyle(
                                 fontSize: 20,
-                                color: Colors.white,
+                                color: Colors.black,
                                 fontWeight: FontWeight.bold),
                           ),
                         ),

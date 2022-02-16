@@ -12,8 +12,8 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\debug\AndroidManifest.xml:6:5-66
-14-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\debug\AndroidManifest.xml:6:22-64
+14-->C:\Users\AKASH\Desktop\Blog\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\AKASH\Desktop\Blog\android\app\src\debug\AndroidManifest.xml:6:22-64
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 15-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\AKASH\.gradle\caches\transforms-2\files-2.1\cb85e813550ceb859d5d8655b705694f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
 15-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\AKASH\.gradle\caches\transforms-2\files-2.1\cb85e813550ceb859d5d8655b705694f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:22-76
@@ -28,28 +28,28 @@
 18-->[com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\AKASH\.gradle\caches\transforms-2\files-2.1\b87ee6138d9a16505fa287f68d56a584\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:22-76
 19
 20    <application
-20-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\main\AndroidManifest.xml:3:4-44:19
+20-->C:\Users\AKASH\Desktop\Blog\android\app\src\main\AndroidManifest.xml:3:4-44:19
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 21-->[androidx.core:core:1.5.0] C:\Users\AKASH\.gradle\caches\transforms-2\files-2.1\5600aad99d3e6b3c713a2bae332fa275\core-1.5.0\AndroidManifest.xml:24:18-86
 22        android:debuggable="true"
 23        android:icon="@mipmap/ic_launcher"
-23-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\main\AndroidManifest.xml:5:9-43
+23-->C:\Users\AKASH\Desktop\Blog\android\app\src\main\AndroidManifest.xml:5:9-43
 24        android:label="blog" >
-24-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\main\AndroidManifest.xml:4:9-29
+24-->C:\Users\AKASH\Desktop\Blog\android\app\src\main\AndroidManifest.xml:4:9-29
 25        <activity
-25-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\main\AndroidManifest.xml:6:9-34:20
+25-->C:\Users\AKASH\Desktop\Blog\android\app\src\main\AndroidManifest.xml:6:9-34:20
 26            android:name="com.example.blog.MainActivity"
-26-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\main\AndroidManifest.xml:7:13-41
+26-->C:\Users\AKASH\Desktop\Blog\android\app\src\main\AndroidManifest.xml:7:13-41
 27            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-27-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\main\AndroidManifest.xml:10:13-163
+27-->C:\Users\AKASH\Desktop\Blog\android\app\src\main\AndroidManifest.xml:10:13-163
 28            android:hardwareAccelerated="true"
-28-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\main\AndroidManifest.xml:11:13-47
+28-->C:\Users\AKASH\Desktop\Blog\android\app\src\main\AndroidManifest.xml:11:13-47
 29            android:launchMode="singleTop"
-29-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\main\AndroidManifest.xml:8:13-43
+29-->C:\Users\AKASH\Desktop\Blog\android\app\src\main\AndroidManifest.xml:8:13-43
 30            android:theme="@style/LaunchTheme"
-30-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\main\AndroidManifest.xml:9:13-47
+30-->C:\Users\AKASH\Desktop\Blog\android\app\src\main\AndroidManifest.xml:9:13-47
 31            android:windowSoftInputMode="adjustResize" >
-31-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\main\AndroidManifest.xml:12:13-55
+31-->C:\Users\AKASH\Desktop\Blog\android\app\src\main\AndroidManifest.xml:12:13-55
 32
 33            <!--
 34                 Specifies an Android theme to apply to this Activity as soon as
@@ -58,11 +58,11 @@
 37                 to determine the Window background behind the Flutter UI.
 38            -->
 39            <meta-data
-39-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\main\AndroidManifest.xml:17:13-20:17
+39-->C:\Users\AKASH\Desktop\Blog\android\app\src\main\AndroidManifest.xml:17:13-20:17
 40                android:name="io.flutter.embedding.android.NormalTheme"
-40-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\main\AndroidManifest.xml:18:15-70
+40-->C:\Users\AKASH\Desktop\Blog\android\app\src\main\AndroidManifest.xml:18:15-70
 41                android:resource="@style/NormalTheme" />
-41-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\main\AndroidManifest.xml:19:15-52
+41-->C:\Users\AKASH\Desktop\Blog\android\app\src\main\AndroidManifest.xml:19:15-52
 42            <!--
 43                 Displays an Android View that continues showing the launch screen
 44                 Drawable until Flutter paints its first frame, then this splash
@@ -71,74 +71,74 @@
 47                 Flutter's first frame.
 48            -->
 49            <meta-data
-49-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\main\AndroidManifest.xml:26:13-29:17
+49-->C:\Users\AKASH\Desktop\Blog\android\app\src\main\AndroidManifest.xml:26:13-29:17
 50                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-50-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\main\AndroidManifest.xml:27:15-79
+50-->C:\Users\AKASH\Desktop\Blog\android\app\src\main\AndroidManifest.xml:27:15-79
 51                android:resource="@drawable/launch_background" />
-51-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\main\AndroidManifest.xml:28:15-61
+51-->C:\Users\AKASH\Desktop\Blog\android\app\src\main\AndroidManifest.xml:28:15-61
 52
 53            <intent-filter>
-53-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\main\AndroidManifest.xml:30:13-33:29
+53-->C:\Users\AKASH\Desktop\Blog\android\app\src\main\AndroidManifest.xml:30:13-33:29
 54                <action android:name="android.intent.action.MAIN" />
-54-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\main\AndroidManifest.xml:31:17-68
-54-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\main\AndroidManifest.xml:31:25-66
+54-->C:\Users\AKASH\Desktop\Blog\android\app\src\main\AndroidManifest.xml:31:17-68
+54-->C:\Users\AKASH\Desktop\Blog\android\app\src\main\AndroidManifest.xml:31:25-66
 55
 56                <category android:name="android.intent.category.LAUNCHER" />
-56-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\main\AndroidManifest.xml:32:17-76
-56-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\main\AndroidManifest.xml:32:27-74
+56-->C:\Users\AKASH\Desktop\Blog\android\app\src\main\AndroidManifest.xml:32:17-76
+56-->C:\Users\AKASH\Desktop\Blog\android\app\src\main\AndroidManifest.xml:32:27-74
 57            </intent-filter>
 58        </activity>
 59        <activity
-59-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\main\AndroidManifest.xml:35:7-38:63
+59-->C:\Users\AKASH\Desktop\Blog\android\app\src\main\AndroidManifest.xml:35:7-38:63
 60            android:name="com.yalantis.ucrop.UCropActivity"
-60-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\main\AndroidManifest.xml:36:5-52
+60-->C:\Users\AKASH\Desktop\Blog\android\app\src\main\AndroidManifest.xml:36:5-52
 61            android:screenOrientation="portrait"
-61-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\main\AndroidManifest.xml:37:5-41
+61-->C:\Users\AKASH\Desktop\Blog\android\app\src\main\AndroidManifest.xml:37:5-41
 62            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-62-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\main\AndroidManifest.xml:38:5-61
+62-->C:\Users\AKASH\Desktop\Blog\android\app\src\main\AndroidManifest.xml:38:5-61
 63        <!--
 64             Don't delete the meta-data below.
 65             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 66        -->
 67        <meta-data
-67-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\main\AndroidManifest.xml:41:9-43:33
+67-->C:\Users\AKASH\Desktop\Blog\android\app\src\main\AndroidManifest.xml:41:9-43:33
 68            android:name="flutterEmbedding"
-68-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\main\AndroidManifest.xml:42:13-44
+68-->C:\Users\AKASH\Desktop\Blog\android\app\src\main\AndroidManifest.xml:42:13-44
 69            android:value="2" />
-69-->C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\android\app\src\main\AndroidManifest.xml:43:13-30
+69-->C:\Users\AKASH\Desktop\Blog\android\app\src\main\AndroidManifest.xml:43:13-30
 70
 71        <service
-71-->[:cloud_firestore] C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+71-->[:cloud_firestore] C:\Users\AKASH\Desktop\Blog\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 72            android:name="com.google.firebase.components.ComponentDiscoveryService"
-72-->[:cloud_firestore] C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+72-->[:cloud_firestore] C:\Users\AKASH\Desktop\Blog\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
 73            android:directBootAware="true"
 73-->[com.google.firebase:firebase-common:20.0.0] C:\Users\AKASH\.gradle\caches\transforms-2\files-2.1\e8c12af64c0d197211b7d090cb61cdf8\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
 74            android:exported="false" >
 74-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\AKASH\.gradle\caches\transforms-2\files-2.1\cb85e813550ceb859d5d8655b705694f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
 75            <meta-data
-75-->[:cloud_firestore] C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+75-->[:cloud_firestore] C:\Users\AKASH\Desktop\Blog\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 76                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-76-->[:cloud_firestore] C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+76-->[:cloud_firestore] C:\Users\AKASH\Desktop\Blog\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
 77                android:value="com.google.firebase.components.ComponentRegistrar" />
-77-->[:cloud_firestore] C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+77-->[:cloud_firestore] C:\Users\AKASH\Desktop\Blog\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 78            <meta-data
-78-->[:firebase_auth] C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+78-->[:firebase_auth] C:\Users\AKASH\Desktop\Blog\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 79                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-79-->[:firebase_auth] C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+79-->[:firebase_auth] C:\Users\AKASH\Desktop\Blog\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
 80                android:value="com.google.firebase.components.ComponentRegistrar" />
-80-->[:firebase_auth] C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+80-->[:firebase_auth] C:\Users\AKASH\Desktop\Blog\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 81            <meta-data
-81-->[:firebase_storage] C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+81-->[:firebase_storage] C:\Users\AKASH\Desktop\Blog\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 82                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
-82-->[:firebase_storage] C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
+82-->[:firebase_storage] C:\Users\AKASH\Desktop\Blog\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
 83                android:value="com.google.firebase.components.ComponentRegistrar" />
-83-->[:firebase_storage] C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+83-->[:firebase_storage] C:\Users\AKASH\Desktop\Blog\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 84            <meta-data
-84-->[:firebase_core] C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+84-->[:firebase_core] C:\Users\AKASH\Desktop\Blog\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 85                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-85-->[:firebase_core] C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+85-->[:firebase_core] C:\Users\AKASH\Desktop\Blog\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
 86                android:value="com.google.firebase.components.ComponentRegistrar" />
-86-->[:firebase_core] C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+86-->[:firebase_core] C:\Users\AKASH\Desktop\Blog\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 87            <meta-data
 87-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\AKASH\.gradle\caches\transforms-2\files-2.1\cb85e813550ceb859d5d8655b705694f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
 88                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
@@ -172,31 +172,31 @@
 102        </service>
 103
 104        <provider
-104-->[:image_picker] C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+104-->[:image_picker] C:\Users\AKASH\Desktop\Blog\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
 105            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-105-->[:image_picker] C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
+105-->[:image_picker] C:\Users\AKASH\Desktop\Blog\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
 106            android:authorities="com.example.blog.flutter.image_provider"
-106-->[:image_picker] C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+106-->[:image_picker] C:\Users\AKASH\Desktop\Blog\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
 107            android:exported="false"
-107-->[:image_picker] C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+107-->[:image_picker] C:\Users\AKASH\Desktop\Blog\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
 108            android:grantUriPermissions="true" >
-108-->[:image_picker] C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+108-->[:image_picker] C:\Users\AKASH\Desktop\Blog\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
 109            <meta-data
-109-->[:image_picker] C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+109-->[:image_picker] C:\Users\AKASH\Desktop\Blog\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
 110                android:name="android.support.FILE_PROVIDER_PATHS"
-110-->[:image_picker] C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+110-->[:image_picker] C:\Users\AKASH\Desktop\Blog\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
 111                android:resource="@xml/flutter_image_picker_file_paths" />
-111-->[:image_picker] C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+111-->[:image_picker] C:\Users\AKASH\Desktop\Blog\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
 112        </provider>
 113
 114        <activity
-114-->[:url_launcher_android] C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+114-->[:url_launcher_android] C:\Users\AKASH\Desktop\Blog\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
 115            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-115-->[:url_launcher_android] C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+115-->[:url_launcher_android] C:\Users\AKASH\Desktop\Blog\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
 116            android:exported="false"
-116-->[:url_launcher_android] C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+116-->[:url_launcher_android] C:\Users\AKASH\Desktop\Blog\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
 117            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-117-->[:url_launcher_android] C:\Users\AKASH\Downloads\Akash (1)\Akash\Blog\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+117-->[:url_launcher_android] C:\Users\AKASH\Desktop\Blog\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
 118        <activity
 118-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\AKASH\.gradle\caches\transforms-2\files-2.1\cb85e813550ceb859d5d8655b705694f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
 119            android:name="com.google.firebase.auth.internal.GenericIdpActivity"

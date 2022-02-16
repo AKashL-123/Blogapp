@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\AKASH\\Downloads\\Akash (1)\\Akash\\Blog\\build\\google_sign_in\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-de\\values-de.xml",
+            "outputFile": "C:\\Users\\AKASH\\Desktop\\Blog\\build\\google_sign_in\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-de\\values-de.xml",
             "map": [
                 {
                     "source": "C:\\Users\\AKASH\\.gradle\\caches\\transforms-2\\files-2.1\\23dce2c664a62757c7c9eebc0507a723\\core-1.2.0\\res\\values-de\\values-de.xml",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\AKASH\\Downloads\\Akash (1)\\Akash\\Blog\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\values-de\\values-de.xml",
+            "outputFile": "C:\\Users\\AKASH\\Desktop\\Blog\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\values-de\\values-de.xml",
             "map": [
                 {
                     "source": "C:\\Users\\AKASH\\.gradle\\caches\\transforms-2\\files-2.1\\23dce2c664a62757c7c9eebc0507a723\\core-1.2.0\\res\\values-de\\values-de.xml",

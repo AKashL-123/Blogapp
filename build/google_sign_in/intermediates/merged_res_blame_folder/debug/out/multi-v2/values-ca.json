@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\AKASH\\Downloads\\Akash (1)\\Akash\\Blog\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\values-ca\\values-ca.xml",
+            "outputFile": "C:\\Users\\AKASH\\Desktop\\Blog\\build\\google_sign_in\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ca\\values-ca.xml",
             "map": [
                 {
                     "source": "C:\\Users\\AKASH\\.gradle\\caches\\transforms-2\\files-2.1\\6f55727569cdc4f2e92c738b6d0b61e3\\jetified-play-services-basement-18.0.0\\res\\values-ca\\values.xml",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\AKASH\\Downloads\\Akash (1)\\Akash\\Blog\\build\\google_sign_in\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ca\\values-ca.xml",
+            "outputFile": "C:\\Users\\AKASH\\Desktop\\Blog\\build\\google_sign_in\\intermediates\\res\\merged\\debug\\values-ca\\values-ca.xml",
             "map": [
                 {
                     "source": "C:\\Users\\AKASH\\.gradle\\caches\\transforms-2\\files-2.1\\6f55727569cdc4f2e92c738b6d0b61e3\\jetified-play-services-basement-18.0.0\\res\\values-ca\\values.xml",

@@ -21,7 +21,7 @@ class _teammemState extends State<teammem> {
                 fontSize: 22,
                 color: Colors.black,
                 fontWeight: FontWeight.w800,
-                fontFamily: 'Montserrat'),
+                fontFamily: 'myralight'),
           ),
           centerTitle: true,
           leading: Padding(
@@ -53,7 +53,7 @@ class _teammemState extends State<teammem> {
               ),
             )
           ],
-          backgroundColor: Colors.transparent,
+          backgroundColor: Colors.purple,
           elevation: 0.0,
         ),
         body: SafeArea(
@@ -121,7 +121,7 @@ class teamtemplate extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.only(left: 10, right: 10, bottom: 10),
       child: MaterialButton(
-        color: Colors.purpleAccent,
+        color: Colors.cyan,
         elevation: 10,
         onPressed: () {  },
         child: Row(
@@ -152,7 +152,7 @@ class teamtemplate extends StatelessWidget {
                           color: Colors.black,
                           fontSize: 27,
                           fontWeight: FontWeight.w500,
-                          fontFamily: 'Pluto'),
+                          fontFamily: 'lightitalic'),
                     ),
                     Text("Department - $department",
                         style: TextStyle(

@@ -48,6 +48,13 @@ dependencies:
   google_sign_in: ^5.2.1
   image_cropper: ^1.4.1
   url_launcher: ^6.0.17
+
+ #google sign in
+     
+     
+
+  
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\AKASH\\Downloads\\Akash (1)\\Akash\\Blog\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\AKASH\\Desktop\\Blog\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\AKASH\\.gradle\\caches\\transforms-2\\files-2.1\\0e97a1b8a6b5c7d20b672b8fb48affe0\\appcompat-1.3.0\\res\\values\\values.xml",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\AKASH\\Downloads\\Akash (1)\\Akash\\Blog\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "source": "C:\\Users\\AKASH\\Desktop\\Blog\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -37,6 +37,25 @@
                         "startOffsets": "26328,26472,26554,26658,26767,26887,26984",
                         "endColumns": "143,81,103,108,119,96,73",
                         "endOffsets": "26467,26549,26653,26762,26882,26979,27053"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\AKASH\\Desktop\\Blog\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "176,830",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "472,996"
+                    },
+                    "to": {
+                        "startLines": "1490,1495",
+                        "startColumns": "4,4",
+                        "startOffsets": "98422,98719",
+                        "endLines": "1494,1497",
+                        "endColumns": "12,12",
+                        "endOffsets": "98714,98883"
                     }
                 },
                 {
@@ -107,25 +126,6 @@
                         "startOffsets": "21923,25035",
                         "endColumns": "67,166",
                         "endOffsets": "21986,25197"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\AKASH\\Downloads\\Akash (1)\\Akash\\Blog\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "176,830",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "472,996"
-                    },
-                    "to": {
-                        "startLines": "1490,1495",
-                        "startColumns": "4,4",
-                        "startOffsets": "98422,98719",
-                        "endLines": "1494,1497",
-                        "endColumns": "12,12",
-                        "endOffsets": "98714,98883"
                     }
                 },
                 {
