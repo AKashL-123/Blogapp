@@ -116,7 +116,12 @@ flutter:
     - family: myralight
       fonts:
         - asset: fonts/myralight.otf         
+    - family: blackitalic
+      fonts:
+        - asset: fonts/blackitaclic.ttf
+  
   # fonts:ttf  
+
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf

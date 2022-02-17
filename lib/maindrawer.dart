@@ -179,15 +179,17 @@ class mydrawerlist extends StatelessWidget {
             ),
             title: "Logout",
             ontap: () {
+
               _auth.signOut();
 
               Navigator.pushReplacement(context,
                   MaterialPageRoute(builder: (context) => WelcomeScreen()));
             },
-          )
-        ],
-      ),
+          ),
+        ]),
     );
+
+            
   }
 }
 
@@ -221,3 +223,20 @@ class menuitem extends StatelessWidget {
     );
   }
 }
+// class Alert extends StatelessWidget {
+//   Future showdialog(BuildContext context,String message) async{
+//     return showDialog(context: context, builder: new AlertDialog(
+//       title: Text(message),
+//       actions: <Widget>[
+//         new 
+//       ],
+//     ));
+//   }
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return Container(
+      
+//     );
+//   }
+// }

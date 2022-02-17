@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:blog/homepage.dart';
 import 'package:blog/service/slider.dart';
 import 'package:carousel_slider/carousel_slider.dart';
@@ -5,377 +7,271 @@ import 'package:flutter/material.dart';
 import 'package:blog/service/slider.dart';
 
 Widget homescreen1() {
-  return ListView( 
+  
+  // return MaterialApp( debugShowCheckedModeBanner: false,
 
-
-      children: <Widget>[
-
-
-        SizedBox(height: 15.0),
-
-        CarouselSlider(
+  //   home: new Scaffold(
+  //     //Here you can set what ever background color you need.
+  //     backgroundColor: Colors.orange[50],
+  //     body: Column(
+  //       children: [
+  //         Center(
+  //           child: new RichText(
+  //               text: TextSpan(children: <TextSpan>[
+  //             TextSpan(
+  //                 text: "DOMAIN", style: TextStyle(color: Colors.black))
+  //           ])),
+  //         ),
+  //       ],
+  //     ),
+  //   ),
+  // );
+  
+  return
+  ListView(
+    
+    children: <Widget>[
+      Center(child: Padding(
+        padding: const EdgeInsets.all(15.0),
+        child: Text('Technical Category',style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold,fontSize: 25.0,fontFamily: "lightitalic"),),
+      )),
+      SizedBox(height: 10.0),
+      CarouselSlider(
           options: CarouselOptions(
-
-
-          height: 180.0,
-
-
-          enlargeCenterPage: true,
-
-
-          autoPlay: true,
-
-
-          aspectRatio: 16 / 9,
-
-
-          autoPlayCurve: Curves.fastOutSlowIn,
-
-
-          enableInfiniteScroll: true,
-
-
-          autoPlayAnimationDuration: Duration(milliseconds: 800),
-
-
-          viewportFraction: 0.8,),
-
-
+            height: 200.0,
+            enlargeCenterPage: true,
+            autoPlay: true,
+            aspectRatio: 16 / 9,
+            autoPlayCurve: Curves.fastOutSlowIn,
+            enableInfiniteScroll: true,
+            autoPlayAnimationDuration: Duration(milliseconds: 800),
+            viewportFraction: 0.8,
+          ),
           items: [
-
-
             Container(
-
-
               margin: EdgeInsets.all(5.0),
-
-
               decoration: BoxDecoration(
-
-
                 borderRadius: BorderRadius.circular(10.0),
-
-
                 image: DecorationImage(
-
-
-                  image: AssetImage('assets/ck.jpg'),
-
-
+                  image: AssetImage('assets/iot.jpg'),
                   fit: BoxFit.cover,
-
-
                 ),
-
-
               ),
-
-
               child: Column(
-
-
                 mainAxisAlignment: MainAxisAlignment.center,
-
-
+                mainAxisSize: MainAxisSize.max,
                 crossAxisAlignment: CrossAxisAlignment.center,
-
-
                 children: <Widget>[
-
-
-                  Text(
-
-
-                    'Usable Flower for Health',
-
-
-                    style: TextStyle(
-
-
-                      color: Colors.white,
-
-
-                      fontWeight: FontWeight.bold,
-
-
-                      fontSize: 18.0,
-
-
-                    ),
-
-
-                  ),
-
-
-
                   Padding(
-
-
-                    padding: const EdgeInsets.all(15.0),
-
-
+                    padding: const EdgeInsets.only(top: 35.0),
                     child: Text(
-
-
-                      'Lorem Ipsum is simply dummy text use for printing and type script',
-
-
+                      '         Internet Of Things               ',
                       style: TextStyle(
-
-
                         color: Colors.white,
-
-
-                        fontSize: 15.0,
-
-
+                        fontWeight: FontWeight.bold,
+                        fontSize: 25.0,
+                        fontFamily: 'blackitalic',
                       ),
-
-
-                      textAlign: TextAlign.center,
-
-
                     ),
-
-
                   ),
-
-
+                  Padding(
+                    padding: const EdgeInsets.all(40.0),
+                    child: Text('',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 10.0,
+                        ),
+                        textAlign: TextAlign.left),
+                  ),
                 ],
-
-
               ),
-
-
             ),
-
-
-
             Container(
-
-
               margin: EdgeInsets.all(5.0),
-
-
               decoration: BoxDecoration(
-
-
                 borderRadius: BorderRadius.circular(10.0),
-
-
                 image: DecorationImage(
-
-
-                  image: AssetImage('assets/bk.jpg'),
-
-
+                  image: AssetImage('assets/android1.jpg'),
                   fit: BoxFit.cover,
-
-
                 ),
-
-
               ),
-
-
               child: Column(
-
-
                 mainAxisAlignment: MainAxisAlignment.center,
-
-
                 crossAxisAlignment: CrossAxisAlignment.center,
-
-
                 children: <Widget>[
-
-
                   Text(
-
-
-                    'Usable Flower for Health',
-
-
+                    '         App  Development                        ',
                     style: TextStyle(
-
-
                       color: Colors.white,
-
-
                       fontWeight: FontWeight.bold,
-
-
-                      fontSize: 18.0,
-
-
+                      fontFamily: 'blackitalic',
+                      fontSize: 25.0,
                     ),
-
-
                   ),
-
-
-
                   Padding(
-
-
                     padding: const EdgeInsets.all(15.0),
-
-
                     child: Text(
-
-
-                      'Lorem Ipsum is simply dummy text use for printing and type script',
-
-
+                      '',
                       style: TextStyle(
-
-
                         color: Colors.white,
-
-
                         fontSize: 15.0,
-
-
                       ),
-
-
-                      textAlign: TextAlign.center,
-
-
+                      textAlign: TextAlign.end,
                     ),
-
-
                   ),
-
-
                 ],
-
-
               ),
-
-
             ),
-
-
-
             Container(
-
-
               margin: EdgeInsets.all(5.0),
-
-
               decoration: BoxDecoration(
-
-
                 borderRadius: BorderRadius.circular(10.0),
-
-
                 image: DecorationImage(
-
-
-                  image: AssetImage('assets/drawer.jpg'),
-
-
+                  image: AssetImage('assets/web.jpg'),
                   fit: BoxFit.cover,
-
-
                 ),
-
-
               ),
-
-
               child: Column(
-
-
                 mainAxisAlignment: MainAxisAlignment.center,
-
-
                 crossAxisAlignment: CrossAxisAlignment.center,
-
-
                 children: <Widget>[
-
-
-                  Text(
-
-
-                    'Usable Flower for Health',
-
-
-                    style: TextStyle(
-
-
-                      color: Colors.white,
-
-
-                      fontWeight: FontWeight.bold,
-
-
-                      fontSize: 18.0,
-
-
-                    ),
-
-
-                  ),
-
-
-
                   Padding(
-
-
-                    padding: const EdgeInsets.all(15.0),
-
-
+                    padding: EdgeInsets.only(bottom: 60.0),
                     child: Text(
-
-
-                      'Lorem Ipsum is simply dummy text use for printing and type script',
-
-
+                      'Web  Develpoment                   ',
                       style: TextStyle(
-
-
-                        color: Colors.white,
-
-
-                        fontSize: 15.0,
-
-
+                        color: Colors.brown[900],
+                        fontWeight: FontWeight.bold,
+                        fontFamily: 'blackitalic',
+                        fontSize: 25.0,
                       ),
-
-
-                      textAlign: TextAlign.center,
-
-
                     ),
-
-
                   ),
-
-
+                  Padding(
+                    padding: const EdgeInsets.all(15.0),
+                    child: Text(
+                      '',
+                      style: TextStyle(
+                        color: Colors.black87,
+                        fontSize: 15.0,
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
+                  ),
                 ],
-
-
               ),
-
-
             ),
+            Container(
+              margin: EdgeInsets.all(5.0),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(10.0),
+                image: DecorationImage(
+                  image: AssetImage('assets/ds.png'),
+                  fit: BoxFit.cover,
+                ),
+              ),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: <Widget>[
+                  Padding(
+                    padding: const EdgeInsets.only(bottom: 75),
+                    child: Text(
+                      'Data Science                           ',
+                      style: TextStyle(
+                        color: Colors.black,
+                        fontWeight: FontWeight.bold,
+                        fontFamily: 'blackitalic',
+                        fontSize: 25.0,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Container(
+              margin: EdgeInsets.all(5.0),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(10.0),
+                image: DecorationImage(
+                  image: AssetImage('assets/robotics.jpg'),
+                  fit: BoxFit.cover,
+                ),
+              ),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: <Widget>[
+                  Text(
+                    '       Robotics                                ',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontFamily: 'blackitalic',
+                      fontSize: 25.0,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Container(
+                margin: EdgeInsets.all(5.0),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10.0),
+                  image: DecorationImage(
+                    image: AssetImage('assets/ARVR.jpg'),
+                    fit: BoxFit.cover,
+                  ),
+                ),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: <Widget>[
+                    Text(
+                      'Augmented And Virtual Reality',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                        fontFamily: 'blackitalic',
+                        fontSize: 25.0,
+                      ),
+                    ),
+                  ],
+                )),
+            Container(
+                margin: EdgeInsets.all(5.0),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10.0),
+                  image: DecorationImage(
+                    image: AssetImage('assets/3d.jpg'),
+                    fit: BoxFit.cover,
+                  ),
+                ),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: <Widget>[
+                    Text(
+                      '  3D Modelling                                         ',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                        fontFamily: 'blackitalic',
+                        fontSize: 25.0,
+                      ),
+                    ),
+                  ],
+                ))
+          ]),
+    Center(child: Padding(
+      padding: const EdgeInsets.all(20.0),
+      child: Text('Non Technical Category',style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold,fontSize: 25.0,fontFamily: "lightitalic"),),
+    )),
+    ],
+  );
 
+  //  return MaterialApp(
 
-          ],
-
-
-        ),
-
-
-      ],
-
-
-    );
-
-  //   debugShowCheckedModeBanner: false,
   //   title: 'Testing',
   //   home: new Scaffold(
   //     //Here you can set what ever background color you need.
@@ -386,7 +282,7 @@ Widget homescreen1() {
   //           child: new RichText(
   //               text: TextSpan(children: <TextSpan>[
   //             TextSpan(
-  //                 text: "homescreen", style: TextStyle(color: Colors.black))
+  //                 text: "DOMAIN", style: TextStyle(color: Colors.black))
   //           ])),
   //         ),
   //       ],
