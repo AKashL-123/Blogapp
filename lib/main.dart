@@ -1,341 +1,130 @@
-import 'package:blog/splashscreen.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:untitled/qrcodescan.dart';
 
-import 'package:bubble_bottom_bar/bubble_bottom_bar.dart';
+import 'dart:ui';
 
-import 'service/slider.dart';
-import 'package:blog/service/slider.dart';
+import 'package:untitled/students/login.dart';
+import 'package:untitled/professor/loginf.dart';
 
-Future<void> main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
-  runApp(const MyApp());
+void main() {
+  runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
+    home: HomePage(),
+  ));
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({Key key}) : super(key: key);
-
-  // This widget is the root of your application.
+class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        title: 'Flutter Demo',
-        theme: ThemeData(
-            primaryColor: Colors.black,
-            primaryIconTheme: const IconThemeData(color: Colors.black),
-            primaryTextTheme:
-                const TextTheme(bodyText1: TextStyle(color: Colors.black))),
-        home: const splashscreen());
-  }
-
- 
-}
-class MyHomePage extends StatefulWidget {
-
-
-  @override
-
-
-  _MyHomePageState createState() => _MyHomePageState();
-
-
-}
-
-
-
-class _MyHomePageState extends State<MyHomePage> {
-
-
-  int currentIndex;
-
-
-
-  @override
-
-
-  void initState() {
-
-
-    super.initState();
-
-
-
-    currentIndex = 0;
-
-
-  }
-
-
-
-  changePage(int index) {
-
-
-    setState(() {
-
-
-      currentIndex = index;
-
-
-    });
-
-
-  }
-
-
-
-  @override
-
-
-  Widget build(BuildContext context) {
-
-
     return Scaffold(
-
-
       appBar: AppBar(
-
-
-        title: Text(
-
-
-          'Dashboard',
-
-
-          style: TextStyle(
-
-
-            fontSize: 18.0,
-
-
-            color: Colors.black,
-
-
-            fontWeight: FontWeight.bold,
-
-
-          ),
-
-
-        ),
-
-
-        backgroundColor: Colors.white,
-
-
-      ),
-
-
-      bottomNavigationBar: BubbleBottomBar(
-
-
-        opacity: 0.2,
-
-
-        backgroundColor: Colors.white,
-
-
-        borderRadius: BorderRadius.vertical(
-
-
-          top: Radius.circular(16.0),
-
-
-        ),
-
-
-        currentIndex: currentIndex,
-
-
-        hasInk: true,
-
-
-        inkColor: Colors.black12,
-
-
-        onTap: changePage,
-
-
-        items: <BubbleBottomBarItem>[
-
-
-          BubbleBottomBarItem(
-
-
-            backgroundColor: Colors.red,
-
-
-            icon: Icon(
-
-
-              Icons.dashboard,
-
-
-              color: Colors.black,
-
-
-            ),
-
-
-            activeIcon: Icon(
-
-
-              Icons.dashboard,
-
-
-              color: Colors.red,
-
-
-            ),
-
-
-            title: Text('Home'),
-
-
-          ),
-
-
-          BubbleBottomBarItem(
-
-
-            backgroundColor: Colors.indigo,
-
-
-            icon: Icon(
-
-
-              Icons.folder_open,
-
-
-              color: Colors.black,
-
-
-            ),
-
-
-            activeIcon: Icon(
-
-
-              Icons.folder_open,
-
-
-              color: Colors.indigo,
-
-
-            ),
-
-
-            title: Text('Folders'),
-
-
-          ),
-
-
-          BubbleBottomBarItem(
-
-
-            backgroundColor: Colors.deepPurple,
-
-
-            icon: Icon(
-
-
-              Icons.access_time,
-
-
-              color: Colors.black,
-
-
-            ),
-
-
-            activeIcon: Icon(
-
-
-              Icons.access_time,
-
-
-              color: Colors.deepPurple,
-
-
-            ),
-
-
-            title: Text('Log'),
-
-
-          ),
-
-
-          BubbleBottomBarItem(
-
-
-            backgroundColor: Colors.green,
-
-
-            icon: Icon(
-
-
-              Icons.menu,
-
-
-              color: Colors.black,
-
-
-            ),
-
-
-            activeIcon: Icon(
-
-
-              Icons.menu,
-
-
-              color: Colors.green,
-
-
-            ),
-
-
-            title: Text('Menu'),
-
-
-          ),
-
-
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        actions: [
+          IconButton(
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => QRViewExample(),
+                    ));
+              },
+              icon: Icon(
+                Icons.person,
+                color: Colors.black,
+              ))
         ],
-
-
       ),
+      body: SafeArea(
+        child: Container(
+          // we will give media query height
+          // double.infinity make it big as my parent allows
+          // while MediaQuery make it big as per the screen
 
-
-      body: (currentIndex == 0)
-
-
-          ? Hotstar()
-
-
-          : (currentIndex == 1)
-
-
-              ? Hotstar()
-
-
-              : (currentIndex == 2)
-
-
-                  ? Hotstar()
-
-
-                  : Hotstar(),
-
-
+          width: double.infinity,
+          height: MediaQuery.of(context).size.height,
+          padding: EdgeInsets.symmetric(horizontal: 30, vertical: 50),
+          child: Column(
+            // even space distribution
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: <Widget>[
+              Column(
+                children: <Widget>[
+                  Text(
+                    "Welcome",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 30,
+                    ),
+                  ),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Text(
+                    "Smart Student App",
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      color: Colors.grey[700],
+                      fontSize: 15,
+                    ),
+                  )
+                ],
+              ),
+              Container(
+                height: MediaQuery.of(context).size.height / 3,
+                decoration: BoxDecoration(
+                    image: DecorationImage(
+                        image: AssetImage("assets/welcome.png"))),
+              ),
+              Column(
+                children: <Widget>[
+                  // the login button
+                  MaterialButton(
+                    minWidth: double.infinity,
+                    height: 60,
+                    onPressed: () {
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => LoginPage()));
+                    },
+                    // defining the shape
+                    shape: RoundedRectangleBorder(
+                        side: BorderSide(color: Colors.black),
+                        borderRadius: BorderRadius.circular(50)),
+                    child: Text(
+                      "Student",
+                      style:
+                          TextStyle(fontWeight: FontWeight.w600, fontSize: 18),
+                    ),
+                  ),
+                  // creating the signup button
+                  SizedBox(height: 20),
+                  MaterialButton(
+                    minWidth: double.infinity,
+                    height: 60,
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => LoginPagef()));
+                    },
+                    color: Color(0xff0095FF),
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(50)),
+                    child: Text(
+                      "Professor",
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.w600,
+                          fontSize: 18),
+                    ),
+                  )
+                ],
+              )
+            ],
+          ),
+        ),
+      ),
     );
-
-
   }
-
-
 }
-

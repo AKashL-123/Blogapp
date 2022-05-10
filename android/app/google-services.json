@@ -1,41 +1,33 @@
 {
   "project_info": {
-    "project_number": "856401678054",
-    "project_id": "mlsa-blog-app",
-    "storage_bucket": "mlsa-blog-app.appspot.com"
+    "project_number": "718463677763",
+    "project_id": "mlsastudent",
+    "storage_bucket": "mlsastudent.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:856401678054:android:1db020e287cfa191fe7527",
+        "mobilesdk_app_id": "1:718463677763:android:1e595863f87c3a75502bf6",
         "android_client_info": {
-          "package_name": "com.example.blog"
+          "package_name": "com.example.untitled"
         }
       },
       "oauth_client": [
         {
-          "client_id": "856401678054-0aslma41rk80tkf7obqnskhe3got0psq.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.blog",
-            "certificate_hash": "3edd72ecf216a0a55d1187837cbd5e5b54c700ff"
-          }
-        },
-        {
-          "client_id": "856401678054-c37a2g0a30bjb0i6vori43mp3up4mrlr.apps.googleusercontent.com",
+          "client_id": "718463677763-i66398tmru56ftb93rbmqrvdt1kdk27v.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDNZcju8Ou5Hl7M5-E71J8cpo2KYUJ05Hw"
+          "current_key": "AIzaSyDX_5W8QN7BYe2v3xoIkitKiinpAaCXdck"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "856401678054-c37a2g0a30bjb0i6vori43mp3up4mrlr.apps.googleusercontent.com",
+              "client_id": "718463677763-i66398tmru56ftb93rbmqrvdt1kdk27v.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
